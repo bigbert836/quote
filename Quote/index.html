@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.3/css/bootstrap.min.css" integrity="sha384-MIwDKRSSImVFAZCVLtU0LMDdON6KVCrZHyVQQj6e8wIEJkW4tvwqXrbMIya1vriY" crossorigin="anonymous">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/script.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" type="text/css" href="venders/css/ionicons.css">
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,100,300,300italic' rel='stylesheet' type='text/css'>
+        
+    </head> 
+    <body>
+        <header>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Quote Generator</h1>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <blockquote>
+                <div id="quoteText"></div>
+                <cite>
+                    <p>- </p><div id="quoteAuthor"></div>
+                </cite>
+            </blockquote>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <a data-toggle="tootip" data-placement="top" title="New Quote" id="getQuote">
+                    <i class="ion-quote big-icon"></i>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a data-toggle="tootip" data-placement="top" title="Tweet Quote" id="tweet">
+                    <i class="ion-social-twitter-outline big-icon"></i>
+                </a>
+            </div>
+            <div class="col-sm-4">
+                <a data-toggle="tootip" data-placement="top" title="Author Info" id="info">
+                    <img src="venders/css/wikipedia-4096-black.png">
+                </a>
+            </div>
+        </div>
+        <footer>
+            <p>Quotes provided by <a href='http://forismatic.com/en/'>Forismatic.com</a></p>
+        </footer>
+    </body>
+</html>
